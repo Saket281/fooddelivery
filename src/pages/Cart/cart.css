@@ -1,0 +1,56 @@
+.cart{
+    display: block;
+}
+.empty-cart{
+    font-size: 0.8750rem;
+}
+.total{
+    padding: 20px 10px;
+    margin: 35px 0;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.sub-total ,.taxes ,.total-final{
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-weight: 400;
+}
+.total-final{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.action{
+    display: flex;
+    margin-top: 25px;
+}
+.action .btn{
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+@media only screen and (min-width: 400px){
+.copy {
+    flex: 1;
+}
+}
+.copy {
+    margin-right: 10px;
+    background-color: var(--color-4);
+    color: #000;
+}
+button{
+    border: none;
+    text-transform: none;
+    font-size: 100%;
+    line-height: 1.15;
+}
+.buy{
+    background-color: #00a2ff;
+    color: #fff;
+    flex: 1;
+}

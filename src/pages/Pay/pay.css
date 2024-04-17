@@ -1,0 +1,43 @@
+.box{
+    display: block;
+}
+.qr-img{
+    padding: 0 30px 0 55px;
+    width: 80%;
+ 
+}
+.qr-text{
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.boxes {
+    display: flex;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.box {
+    width: calc(45% - 10px);
+    background-color:#f7f7f7;
+    text-align: center;
+    padding: 40px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.box:nth-child(odd) {
+    margin-right: 15px;
+}
+.box img{
+    width: 60%;
+}
+.font{
+    font-weight: bold;
+}
+.box p{
+    margin-bottom: 0;
+    color: #666;
+}

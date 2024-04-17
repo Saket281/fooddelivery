@@ -1,0 +1,50 @@
+.menu-container{
+    display: block;
+}
+.menu-categories{
+    margin-bottom: 25px;
+}
+.keen-slider{
+    -webkit-tap-highlight-color: transparent;
+    align-content: flex-start;
+    display: flex;
+    overflow: hidden;
+   position: relative;
+    width: 100%;
+}
+ul.horizontal_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.horizontal_list li {
+    overflow: visible !important;
+    text-align: center;
+    background-color:#eee;
+    border-radius: 5px;
+}
+li{
+    display: list-item;
+}
+.horizontal_list li a {
+    padding: 12px 21px;
+    font-size: 15px;
+    color: #000;
+    display: inline-block;
+    cursor: pointer;
+    white-space: nowrap;
+}
+a{
+    text-decoration: none;
+   
+    background-color: transparent;
+}
+.categoryName {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 16px 0;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+

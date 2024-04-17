@@ -1,0 +1,8 @@
+.container{
+    max-width: 600px;
+    margin: auto;
+    padding: 15px 10px;
+}
+.appContainer{
+    margin-bottom: 80px;
+}
