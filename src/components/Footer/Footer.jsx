@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { Link } from "react-router-dom"; // Import Link component
+import { Link } from "react-router-dom"; 
 import "./footer.css";
 import { CartContext } from "../../CartContext";
 const Footer = () => {
